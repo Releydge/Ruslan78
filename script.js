@@ -24,7 +24,7 @@ function displayResults(results) {
     results.forEach((result) => {
       const resultItem = document.createElement("div");
       resultItem.classList = "res-item";
-      resultItem.innerHTML = `${result.name} Р3 </br> 
+      resultItem.innerHTML = `${result.name} </br> 
       ${result.info} </br></br>`;
       resultsDiv.appendChild(resultItem);
     });
